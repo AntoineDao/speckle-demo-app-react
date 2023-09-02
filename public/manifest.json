@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Funckle",
+  "name": "Build and Deploy Funky Functions for Speckle",
   "icons": [
     {
       "src": "favicon.ico",

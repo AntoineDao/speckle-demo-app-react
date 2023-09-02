@@ -1,21 +1,37 @@
 {
-  "name": "speckle-demo-app-react",
+  "name": "frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
+    "@ant-design/icons": "^5.2.5",
+    "@apollo/client": "^3.8.1",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.13",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "antd": "^5.8.3",
+    "graphql": "^16.7.1",
+    "lodash": "^4.17.21",
+    "moment-timezone": "^0.5.43",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-markdown": "^8.0.7",
+    "react-moment": "^1.1.3",
+    "react-router-dom": "^6.15.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-syntax-highlighter": "^15.5.0",
+    "typescript": "^4.4.2",
+    "web-vitals": "^2.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "relocate": "react-scripts build && rm -rf ../server/build && mv -f build ../server"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +50,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.197",
+    "@types/react-syntax-highlighter": "^15.5.7"
   }
 }
