@@ -25,7 +25,7 @@ const StreamList = () => {
                 loading={loading}
                 renderItem={(item) => (
                     <List.Item>
-                        <Link to={`/streams/${item.id}`}>
+                        <Link to={`https://speckle.xyz/streams/${item.id}`}>
                             <Card
                                 loading={loading}
                                 cover={<img alt="example" src='https://speckle.systems/content/images/2021/02/automation.png' />}
@@ -38,7 +38,6 @@ const StreamList = () => {
                                         <Space>
                                             <Typography.Text>{item.branches.totalCount} x</Typography.Text>
                                             <BranchesOutlined />
-
                                         </Space>
                                     }
                                 />
