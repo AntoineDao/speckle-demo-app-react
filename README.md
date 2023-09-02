@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Demo: https://speckle-demo-app-react.vercel.app/
+
+![](docs/app-demo.gif)
+
+
 ## Getting Started
 
 ### Prerequisites
@@ -24,7 +29,9 @@ The application requires a Speckle Server to be running and a [Speckle Applicati
 
 This template uses the main [Speckle Server](https://speckle.xyz) by default. To use a different server, you can change the `REACT_APP_SERVER_URL` environment variable in the `.env` file.
 
-This template also comes pre-packages with the Application id and secret for the Speckle React App Demo owned by Antoine Dao. You can use it to test the code out before creating you own Application. To use your own Application, you can change the `REACT_APP_APP_ID` and `REACT_APP_APP_SECRET` environment variables in the `.env` file.
+This template also comes pre-packages with the Application id and secret for the Speckle React App Demo owned by Antoine Dao. You can use it to test the code out before creating you own Application. 
+
+To use your own Application, you can change the `REACT_APP_APP_ID` and `REACT_APP_APP_SECRET` environment variables in the `.env` file. You will have to configure the Speckle Application redirect URL to `http(s)://<your-app-url>/auth`.
 
 ## Application Structure
 
